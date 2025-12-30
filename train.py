@@ -14,7 +14,7 @@ import random
 from loader.Dataloader import get_loaders
 from utils.util import check_dirs, print_net, re_crop, MulticlassDiceLoss
 from loss import get_dice, U_Hemis_loss, RMBTS_loss, LMCR_loss
-from net.Network_HEMIS import U_Hemis3D, TF_U_Hemis3D, AF_U_Hemis3D, InOut_U_Hemis3D, RsInOut_U_Hemis3D
+from net.Network_InOut import U_Hemis3D, TF_U_Hemis3D, AF_U_Hemis3D, InOut_U_Hemis3D, RsInOut_U_Hemis3D
 from net.Network_RMBTS import RMBTS, TF_RMBTS
 from net.Network_LMCR import LMCR, TF_LMCR
 from process.utils import parse_image_name,missing_list
